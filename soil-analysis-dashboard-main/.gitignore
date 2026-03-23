@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Models (VERY IMPORTANT)
+*.pth
+*.pkl
+*.h5
+*.keras
+*.zip
+models/
+crnn_samples/
+
+# Data files
+*.csv
+*.npz
+data/
+
+# Audio / Images
+*.wav
+*.mp3
+*.jpg
+*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
